@@ -65,6 +65,7 @@ const Inventory: React.FC<InventoryProps> = ({ items, setItems }) => {
          <h1 className='w-full text-3xl text-slate-400'>Inventory</h1>
          <div className="flex justify-between my-4 text-slate-300">
             <div className="space-x-6">
+               <span className='font-semibold text-slate-500'>AVAILABILITY: </span>
                <button className={clsx('btn', { 'text-orange-400 font-semibold': stockFilter === '' })} onClick={() => setStockFilter('')}>All</button>
                <button className={clsx('btn', { 'text-orange-400 font-semibold': stockFilter === 'inStock' })} onClick={() => setStockFilter('inStock')}>In Stock</button>
                <button className={clsx('btn', { 'text-orange-400 font-semibold': stockFilter === 'outOfStock' })} onClick={() => setStockFilter('outOfStock')}>Out of Stock</button>
