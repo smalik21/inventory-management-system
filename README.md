@@ -12,21 +12,21 @@ This project is a simplified inventory and order management system built using N
 
 1. **Clone the repository**:
 
-   ```bash
-   git clone https://github.com/smalik21/inventory-management-system.git
-   cd inventory-management-system
-   ```
+```bash
+git clone https://github.com/smalik21/inventory-management-system.git
+cd inventory-management-system
+```
    
 3. **Install dependencies**:
-  
-  ```bash
-  npm install
-  ```
+
+```bash
+npm install
+```
 
 3. **Run the development server**:
   
-  ```bash
-  npm run dev
-  ```
+```bash
+npm run dev
+```
 
 Open http://localhost:3000 to view it in the browser.
